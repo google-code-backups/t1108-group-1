@@ -1,0 +1,361 @@
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    color: #577B95;
+    text-decoration:underline;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+b {
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color:#F60;
+    font-size: 14px;
+}
+
+*
+{
+    border: 0;
+    margin: 0;
+}
+
+body
+{
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #000000;
+    line-height: 20px;
+    background: url(images/background.jpg) center top fixed;
+    background-repeat:repeat-x;
+    background-position: top;
+}
+
+#mainbg{
+    width: 1016px;
+    margin: 0 auto;
+}
+
+#main{
+    margin: 0 auto;
+    width: 1016px;
+    padding-top: 10px;
+}
+
+#header{
+
+    background-position: top;
+    width: 100%;
+}
+
+#headertop{
+    width: 1016px;
+    margin: 0 auto;
+    text-align: left;
+    padding:0;
+    height: 80px;
+}
+
+#logo{
+    width: 238px;
+    margin: 0 auto;
+    text-align: left;
+    padding:0;
+    height: 80px;
+	float:left;
+}
+
+#trogiuptimkiem{
+	width:400px;
+	margin:0 auto;
+	text-align:left;
+	padding:0;
+	height:80px;
+	float:right;
+}
+
+#buttons{
+    width: 1016px;
+    height: 57px;
+    margin: 0 auto;
+    padding-top: 15px;
+    background: url(images/menubg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#buttons ul {
+    padding-left: 0px;
+}
+
+#buttons li {
+    display: inline;
+}
+
+#buttons a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    float: left;
+    width: 20%;
+    height: 37px;
+    padding-top: 19px;
+    margin-top: 1px;
+}
+
+#buttons a:hover, .active{
+   background: url(images/menu_h.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.header_back
+{
+background: url(images/header_back.png) no-repeat;
+width: 1016px;
+height: 256px;
+margin-top: 10px;
+padding-top: 7px;
+}
+
+
+#content{
+
+}
+
+#center{
+    width: 796px;
+    float: left;
+	padding-bottom:20px;
+}
+
+#center p{
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom: 10px;
+}
+
+.topsanpham{
+    padding: 10px;
+    background: #fff url(images/text_bg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    min-height: 64px;
+}
+
+#botsanpham{
+	float:none;
+	width:796px;
+	height:5px;
+	background-image:url(images/botsanpham.png);
+	background-repeat:no-repeat;
+}
+
+#space{
+	float:none;
+	width:1016px;
+	height:10px;
+}
+
+#center H1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color: #00456e;
+    font-size: 16px;
+    height: 36px;
+    width: 796px;
+    padding-top: 10px;
+    background: url(images/title_center.png);
+    background-repeat:no-repeat;
+    background-position: top;
+}
+
+#right{
+    width:198px;
+    padding-right: 1px;
+    float:right;
+	padding-bottom:20px;
+}
+
+#right h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    color: #ffffff;
+    font-size: 16px;
+    text-align:center;
+    height: 27px;
+    padding-top: 10px;
+    background: url(images/title_right.png);
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.right_grad{
+    background: url(images/right_grad.png) no-repeat;
+    background-position: top left;
+    min-height: 206px;
+}
+
+.right_bg{
+    background: url(images/right_bg.png) repeat-y;
+    background-position:left;
+}
+
+.right_bot{
+    background: url(images/right_bot.png) repeat-y;
+    background-position:left top;
+    height: 4px;
+    margin-bottom: 10px;
+}
+
+.categories{
+
+}
+
+.categories a{
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.categories a:hover{
+    font-weight: normal;
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.categories ul{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.categories ul li{
+    list-style: none;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px dotted #979797;
+}
+
+.recent a{
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.recent ul{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recent ul li{
+    list-style: none;
+    padding: 3px 5px 3px 13px;
+    background: url(images/ls1.png);
+    background-repeat: no-repeat;
+    background-position: 0px 11px;
+}
+
+#footer
+{
+    height: 40px;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 10px;
+    text-align: center;
+    clear:both;
+    background: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 1px;
+    padding-bottom: 5px;
+}
+
+#footer a{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.padding{
+    padding: 10px;
+    color:#FF0000;
+    font-weight: bold;
+}
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width: 1000px;
+    height: 236px;
+    margin:0 auto;
+	
+}
+
+#slider {
+	position:relative;
+	width: 1000px;
+    height:236px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
